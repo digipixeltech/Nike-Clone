@@ -1,0 +1,6 @@
+(if installed tick yes ✅)
+Azeem: 
+id install aak
+npm install tailwindcss @tailwindcss/vite
+
+Mirfeez:
