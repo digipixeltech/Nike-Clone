@@ -4,6 +4,20 @@
   --theme: #f7f7f7;
 }
 
-body{
+body {
   background-color: var(--theme);
+}
+
+.trending-pic {
+  width: 451px;
+  height: 553px;
+}
+
+.fresh-pic {
+  width: 462px;
+  height: 462px;
+}
+
+.noscroll::-webkit-scrollbar {
+  display: none;
 }
