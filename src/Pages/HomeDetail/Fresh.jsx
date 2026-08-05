@@ -55,7 +55,17 @@ const Fresh = () => {
         title: "Nike Air Zoom Pegasus", 
         cat: "Men's Running Shoe",
         price: 15999
-     }
+     },
+    { url: Fresh9,
+        title: "Nike Air", 
+        cat: "Men's Running Shoe",
+        price: 10999
+     },
+    { url: Fresh10,
+        title: "Nike Air Zoom 2", 
+        cat: "Men's Running Shoe",
+        price: 11999
+     },
   ];
 
   const scrollLeft = () => {
@@ -102,7 +112,7 @@ const Fresh = () => {
 
       <div
         ref={scrollRef}
-        className="flex gap-7 overflow-x-auto scroll-smooth pb-3 relative left-13 noscroll"
+        className="flex gap-7 overflow-x-auto scroll-smooth pb-3 relative left-13 noscroll pr-30"
       >
         {Freshs.map((fresh, idx) => (
           <a href="" key={idx} className="shrink-0">

@@ -3,6 +3,6 @@ Azeem:
 id install aak
 npm install tailwindcss @tailwindcss/vite
 
-thel aa scroll nokava fresh deals l.
 byy have a great time :)
+
 Mirfeez:

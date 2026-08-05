@@ -8,6 +8,16 @@ body {
   background-color: var(--theme);
 }
 
+.Logo{
+  width: 60px;
+  height: 60px;
+}
+
+.featured-pic{
+  width: 760px;
+  height: 739px;
+}
+
 .trending-pic {
   width: 451px;
   height: 553px;
