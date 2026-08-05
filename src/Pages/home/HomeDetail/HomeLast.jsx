@@ -1,6 +1,6 @@
 import React from 'react'
-import FootStrip from '../../img/other/FootStrip.avif'
-import Spotlight from '../../img/other/SpotLight.avif'
+import FootStrip from '../../../img/other/FootStrip.webp'
+import Spotlight from '../../../img/other/SpotLight.webp'
 
 const HomeLast = () => {
   return (
