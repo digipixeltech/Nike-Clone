@@ -1,16 +1,16 @@
 import React, { useRef } from "react";
 import leftIcon from "../../../img/Logo/lefticon.svg";
 import rightIcon from "../../../img/Logo/RightIcon.svg";
-import Fresh1 from "../../../img/fresh/Fresh1.avif";
-import Fresh2 from "../../../img/fresh/Fresh2.avif";
-import Fresh3 from "../../../img/fresh/Fresh3.avif";
-import Fresh4 from "../../../img/fresh/Fresh4.avif";
-import Fresh5 from "../../../img/fresh/Fresh5.avif";
-import Fresh6 from "../../../img/fresh/Fresh6.avif";
-import Fresh7 from "../../../img/fresh/Fresh7.avif";
-import Fresh8 from "../../../img/fresh/Fresh8.avif";
-import Fresh9 from "../../../img/fresh/Fresh9.avif";
-import Fresh10 from "../../../img/fresh/Fresh10.avif";
+import Fresh1 from "../../../img/fresh/Fresh1.webp";
+import Fresh2 from "../../../img/fresh/Fresh2.webp";
+import Fresh3 from "../../../img/fresh/Fresh3.webp";
+import Fresh4 from "../../../img/fresh/Fresh4.webp";
+import Fresh5 from "../../../img/fresh/Fresh5.webp";
+import Fresh6 from "../../../img/fresh/Fresh6.webp";
+import Fresh7 from "../../../img/fresh/Fresh7.webp";
+import Fresh8 from "../../../img/fresh/Fresh8.webp";
+import Fresh9 from "../../../img/fresh/Fresh9.webp";
+import Fresh10 from "../../../img/fresh/Fresh10.webp";
 
 const Fresh = () => {
 	const scrollRef = useRef(null);
