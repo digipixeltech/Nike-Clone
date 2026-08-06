@@ -9,15 +9,16 @@ body {
 }
 
 .nav-hover {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
+  position: fixed;
+  top: 5.5rem;
+  left: 50vw;
+  transform: translateX(-50%);
+  transition: all 0.3s ease-in-out;
+  width: min(100vw, 1200px);
   background-color: #ffffff;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.08);
-  padding: 1rem 2rem;
-  z-index: 40;
+  padding: 1.25rem 2rem;
+  z-index: 50;
 }
 
 .Logo{
