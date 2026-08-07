@@ -10,14 +10,15 @@ body {
 
 .nav-hover {
   position: fixed;
-  top: 5.5rem;
+  top: 5rem;
   left: 50vw;
   transform: translateX(-50%);
-  transition: all 0.3s ease-in-out;
-  width: min(100vw, 1200px);
+  transition: opacity 100ms, transform 100ms, height 100ms, all 0.3s ease-in-out;
+  width: 100vw;
+  height: 32vh;
   background-color: #ffffff;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.08);
-  padding: 1.25rem 2rem;
+  padding: 3rem 2rem;
   z-index: 50;
 }
 

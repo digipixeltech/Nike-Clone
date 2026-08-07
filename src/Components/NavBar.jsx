@@ -25,40 +25,40 @@ const NavBar = () => {
               New & Featured
             </Link>
             <div
-              className={`nav-hover transition duration-300 ease-in-out transform ${
+              className={`nav-hover gap-25 justify-center transition duration-300 ease-in-out ${
                 showNavHover ? "flex" : "hidden"
               }`}
               onMouseEnter={() => setShowNavHover(true)}
               onMouseLeave={() => setShowNavHover(false)}
             >
-              <div className="flex flex-col">
-                <h2>Featured</h2>
-                <a href="#!">New Arrivals</a>
-                <a href="#!">Bestsellers</a>
-                <a href="#!">Top Picks Under ₹4999</a>
+              <div className="flex flex-col gap-2">
+                <h2 className="text-sm mb-1">Featured</h2>
+                <a href="#!" className="text-xs text-gray-600">New Arrivals</a>
+                <a href="#!" className="text-xs text-gray-600">Bestsellers</a>
+                <a href="#!" className="text-xs text-gray-600">Top Picks Under ₹4999</a>
               </div>
-              <div className="flex flex-col">
-                <h2>Trending</h2>
-                <a href="#!">Retro Running</a>
-                <a href="#!">Just Do The Work</a>
-                <a href="#!">All Conditions Gear</a>
+              <div className="flex flex-col gap-2">
+                <h2 className="text-sm mb-1">Trending</h2>
+                <a href="#!" className="text-xs text-gray-600">Retro Running</a>
+                <a href="#!" className="text-xs text-gray-600">Just Do The Work</a>
+                <a href="#!" className="text-xs text-gray-600">All Conditions Gear</a>
+              </div> 
+              <div className="flex flex-col gap-2">
+                <h2 className="text-sm mb-1">Shop Icons</h2>
+                <a href="#!" className="text-xs text-gray-600">Air Force 1</a>
+                <a href="#!" className="text-xs text-gray-600">Air Jordan 1</a>
+                <a href="#!" className="text-xs text-gray-600">Air Max</a>
+                <a href="#!" className="text-xs text-gray-600">Dunk</a>
+                <a href="#!" className="text-xs text-gray-600">Pegasus</a>
+                <a href="#!" className="text-xs text-gray-600">Vomero</a>
               </div>
-              <div className="flex flex-col">
-                <h2>Shop Icons</h2>
-                <a href="#!">Air Force 1</a>
-                <a href="#!">Air Jordan 1</a>
-                <a href="#!">Air Max</a>
-                <a href="#!">Dunk</a>
-                <a href="#!">Pegasus</a>
-                <a href="#!">Vomero</a>
-              </div>
-              <div className="flex flex-col">
-                <h2>Sports</h2>
-                <a href="#!">Running</a>
-                <a href="#!">Gym & Training</a>
-                <a href="#!">Sportswear</a>
-                <a href="#!">Football</a>
-                <a href="#!">Basketball</a>
+              <div className="flex flex-col gap-2">
+                <h2 className="text-sm mb-1">Sports</h2>
+                <a href="#!" className="text-xs text-gray-600">Running</a>
+                <a href="#!" className="text-xs text-gray-600">Gym & Training</a>
+                <a href="#!" className="text-xs text-gray-600">Sportswear</a>
+                <a href="#!" className="text-xs text-gray-600">Football</a>
+                <a href="#!" className="text-xs text-gray-600">Basketball</a>
               </div>
             </div>
           </div>
