@@ -32,33 +32,33 @@ const NavBar = () => {
               onMouseLeave={() => setShowNavHover(false)}
             >
               <div className="flex flex-col gap-2">
-                <h2 className="text-sm mb-1">Featured</h2>
-                <a href="#!" className="text-xs text-gray-600">New Arrivals</a>
-                <a href="#!" className="text-xs text-gray-600">Bestsellers</a>
-                <a href="#!" className="text-xs text-gray-600">Top Picks Under ₹4999</a>
+                <h2 className="text-sm mb-1 hover:text-gray-600">Featured</h2>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">New Arrivals</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Bestsellers</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Top Picks Under ₹4999</a>
               </div>
               <div className="flex flex-col gap-2">
-                <h2 className="text-sm mb-1">Trending</h2>
-                <a href="#!" className="text-xs text-gray-600">Retro Running</a>
-                <a href="#!" className="text-xs text-gray-600">Just Do The Work</a>
-                <a href="#!" className="text-xs text-gray-600">All Conditions Gear</a>
+                <h2 className="text-sm mb-1 hover:text-gray-600">Trending</h2>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Retro Running</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Just Do The Work</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">All Conditions Gear</a>
               </div> 
               <div className="flex flex-col gap-2">
-                <h2 className="text-sm mb-1">Shop Icons</h2>
-                <a href="#!" className="text-xs text-gray-600">Air Force 1</a>
-                <a href="#!" className="text-xs text-gray-600">Air Jordan 1</a>
-                <a href="#!" className="text-xs text-gray-600">Air Max</a>
-                <a href="#!" className="text-xs text-gray-600">Dunk</a>
-                <a href="#!" className="text-xs text-gray-600">Pegasus</a>
-                <a href="#!" className="text-xs text-gray-600">Vomero</a>
+                <h2 className="text-sm mb-1 hover:text-gray-600">Shop Icons</h2>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Air Force 1</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Air Jordan 1</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Air Max</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Dunk</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Pegasus</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Vomero</a>
               </div>
               <div className="flex flex-col gap-2">
-                <h2 className="text-sm mb-1">Sports</h2>
-                <a href="#!" className="text-xs text-gray-600">Running</a>
-                <a href="#!" className="text-xs text-gray-600">Gym & Training</a>
-                <a href="#!" className="text-xs text-gray-600">Sportswear</a>
-                <a href="#!" className="text-xs text-gray-600">Football</a>
-                <a href="#!" className="text-xs text-gray-600">Basketball</a>
+                <h2 className="text-sm mb-1 hover:text-gray-600">Sports</h2>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Running</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Gym & Training</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Sportswear</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Football</a>
+                <a href="#!" className="text-xs text-gray-600 hover:text-black">Basketball</a>
               </div>
             </div>
           </div>

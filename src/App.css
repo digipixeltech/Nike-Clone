@@ -1,8 +1,13 @@
 @import "tailwindcss";
+/* @import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"; */
 
 :root {
   --theme: #f7f7f7;
 }
+
+/* *{
+  font-family: 'Roboto', sans-serif;
+} */
 
 body {
   background-color: var(--theme);
